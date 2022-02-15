@@ -15,7 +15,7 @@ export default function BottomView() {
         <Ionicons name="share-outline" size={30} color="white" />
       </TouchableOpacity>
       <TouchableOpacity onPress={() => {}}>
-        <Ionicons name="options" size={30} color="white" />
+        <Ionicons name="ellipsis-horizontal" size={30} color="white" />
       </TouchableOpacity>
     </View>
   );
