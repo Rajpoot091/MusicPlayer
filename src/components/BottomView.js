@@ -6,36 +6,16 @@ export default function BottomView() {
   return (
     <View style={styles.BottomView}>
       <TouchableOpacity onPress={() => {}}>
-        <Ionicons
-          style={styles.IconStyle}
-          name="heart-outline"
-          size={30}
-          color="white"
-        />
+        <Ionicons name="heart-outline" size={30} color="white" />
       </TouchableOpacity>
       <TouchableOpacity onPress={() => {}}>
-        <Ionicons
-          style={styles.IconStyle}
-          name="repeat"
-          size={30}
-          color="white"
-        />
+        <Ionicons name="repeat" size={30} color="white" />
       </TouchableOpacity>
       <TouchableOpacity onPress={() => {}}>
-        <Ionicons
-          style={styles.IconStyle}
-          name="share-outline"
-          size={30}
-          color="white"
-        />
+        <Ionicons name="share-outline" size={30} color="white" />
       </TouchableOpacity>
       <TouchableOpacity onPress={() => {}}>
-        <Ionicons
-          style={styles.IconStyle}
-          name="options"
-          size={30}
-          color="white"
-        />
+        <Ionicons name="options" size={30} color="white" />
       </TouchableOpacity>
     </View>
   );

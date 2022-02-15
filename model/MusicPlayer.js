@@ -37,19 +37,13 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    // paddingTop: 30,
-    // marginHorizontal: 10,
     backgroundColor: "lightblue",
   },
   textStyle: {
     color: "red",
-    // backgroundColor: "blue",
     marginHorizontal: 10,
     fontSize: 20,
     fontWeight: "bold",
-  },
-  IconStyle: {
-    // paddingHorizontal: 20,
   },
   Slider: {
     width: 300,
