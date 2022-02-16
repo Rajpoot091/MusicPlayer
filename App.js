@@ -6,7 +6,12 @@ export default function App() {
   return (
     <View style={styles.container}>
       <MusicPlayer />
-      <StatusBar style="auto" />
+      {/* <StatusBar
+        animated={true}
+        barStyle="dark-content"
+        backgroundColor="lightblue"
+        translucent={false}
+      /> */}
     </View>
   );
 }
@@ -14,6 +19,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
   },
 });
